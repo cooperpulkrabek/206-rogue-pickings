@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/* comment out things took out after checking work */
+
 html {
 	font-size: 16px;
 }
@@ -13,12 +15,11 @@ body {
 }
 
 .container {
-  align-content: flex-start;
+	max-width: 1200px; /*added*/
   align-items: center;
   display: flex;
-  flex-flow: wrap;
+  flex-flow: row wrap;
 	justify-content: center;
-	margin: 0 auto;
   width: 90%;
 }
 
@@ -42,7 +43,7 @@ h3 {
 p {
 	font-size: 0.875; /*14px;*/
 	line-height: 1.313em;
-  padding: 0 1.875em;
+  /* padding: 0 1.875em; */
 }
 
 /*The widths are in a percentage!*/
@@ -58,7 +59,7 @@ header {
 
 header h1 {
 	margin: 0;
-	padding: 38px 0;
+	padding: 38px 0; 
   width: 100%;
   border-bottom: 3px solid #77a466;
 }
@@ -100,7 +101,7 @@ header nav ul li a{
 	display: flex;
 	justify-content: left;
 	align-items: center;
-	flex-flow: wrap;
+	flex-flow: row wrap;
 }
 
 .main-image {
